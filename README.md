@@ -1,60 +1,64 @@
-Task 1
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/792eaacb-fde5-401c-818e-e99b5a0f770d" />
+📝 ANSWER.MD
+Task 1 — Add an Albatross to the Picture
+Original Image
+<img width="1500" height="811" alt="image" src="https://github.com/user-attachments/assets/d01f625c-c2f1-473c-87e5-751eefbafaee" />
 
-Task 2
+Edited Image (With Albatross Added)
+<img width="1500" height="1000" alt="image" src="https://github.com/user-attachments/assets/1cdeaa8f-aa0f-4941-b159-1902fdb63f28" />
+
+The edited image contains a clearly visible albatross added above the landscape while maintaining the original resolution and proportions.
+
+Task 2 — User Manual
+🪶 User Manual: Adding an Albatross to a Picture Using ChatGPT
 Step 1: Sign Up for ChatGPT
-Go to chat.openai.com.
+Go to chat.openai.com
 
-Click Sign Up.
+Click Sign Up
 
-Choose one of the following:
+Choose:
 
 Google account
 
 Microsoft account
 
-Email and password
+Email + password
 
-Verify your email address.
+Verify your email
 
-Log in to access the ChatGPT interface.
-
+Log in to access ChatGPT
 
 Step 2: Upload the Original Picture
-In the chat window, click the paperclip icon 📎.
+Click the 📎 paperclip icon
 
-Select the original image file (picture-template.jpeg).
+Select picture-template.jpeg
 
-Wait until the image preview appears in the chat.
-
+Wait for the preview to appear
 
 Step 3: Add the Albatross
-Type a clear prompt such as:
-Add an albatross flying above the landscape in this picture.
-ChatGPT will process the image and generate a new version with the Albatross added.
+Type a prompt such as:
 
-Review the result and download it if satisfied.
+Add an albatross flying above the landscape in this picture.
+
+ChatGPT will generate a new edited version with the albatross added.
 
 Step 4: Save the Final Image
-Click the download icon ⬇️ next to the generated image.
+Click the ⬇️ download icon
 
-Save it as final-albatross.jpeg.
+Save as final-albatross.jpeg
 
-Insert both the original and final images into your answer.md file.
+Insert both images into your answer.md
 
+Step 5: Verify Requirements
+Albatross must be clearly visible
 
-📑 Step 5: Verify Image Requirements
-Ensure the Albatross is clearly visible.
+Resolution must match original
 
-Maintain the original picture’s resolution and proportions.
+Format must be .jpeg or .png
 
-Confirm the file format is .jpeg or .png.
+Include both images in submission
 
-Include both images in your submission.
-
-
-Task 3
-
+Task 3 — Full Graph
+Graph Representation (Mermaid)
 graph TD
 
 IONA --> AXEL
@@ -82,9 +86,8 @@ SOL --> WHISP
 WHISP --> LUNE
 WHISP --> SOL
 
-
-Task 4
-
+Task 4 — GPA Calculator (Single‑File Web App)
+HTML Code
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -161,7 +164,6 @@ Task 4
 
 <h2>Your Program: Bachelor of Computer Science</h2>
 
-<!-- GPA INFO TOOLTIP -->
 <div>
     <strong>GPA Information</strong>
     <span class="tooltip">ℹ️
@@ -176,7 +178,6 @@ Task 4
     </span>
 </div>
 
-<!-- COURSE TABLE -->
 <table id="courseTable">
     <thead>
         <tr>
@@ -189,14 +190,12 @@ Task 4
     <tbody></tbody>
 </table>
 
-<!-- BUTTONS -->
 <button onclick="calculateGPA()">Calculate GPA</button>
 <button onclick="calculateAI()">Calculate with Introduction to AI</button>
 
 <div id="result"></div>
 
 <script>
-    // Your real transcript courses (example placeholders)
     const courses = [
         {course: "Introduction to AI", credit: 6, grade: 70, passed: "No"},
         {course: "Programming I", credit: 6, grade: 95, passed: "Yes"},
@@ -207,7 +206,6 @@ Task 4
         {course: "Algorithms", credit: 6, grade: 90, passed: "Yes"},
     ];
 
-    // Add 5 extra program courses
     const extraCourses = [
         {course: "Data Structures", credit: 6, grade: 100, passed: "Yes"},
         {course: "Computer Architecture", credit: 6, grade: 100, passed: "Yes"},
@@ -261,7 +259,7 @@ Task 4
         allCourses.forEach(c => {
             let grade = c.grade;
             if (c.course === "Introduction to AI") {
-                grade = c.grade + 30; // special rule
+                grade = c.grade + 30;
             }
             const gpa = gradeToGPA(grade);
             totalPoints += gpa * c.credit;
@@ -278,3 +276,4 @@ Task 4
 
 </body>
 </html>
+
