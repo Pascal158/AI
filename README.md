@@ -1,16 +1,17 @@
-📝 ANSWER.MD
+📝 ANSWER.md
 Task 1 — Add an Albatross to the Picture
 Original Image
-<img width="1500" height="811" alt="image" src="https://github.com/user-attachments/assets/d01f625c-c2f1-473c-87e5-751eefbafaee" />
+<img width="1500" height="811" alt="original image" src="https://github.com/user-attachments/assets/d01f625c-c2f1-473c-87e5-751eefbafaee" />
 
 Edited Image (With Albatross Added)
-<img width="1500" height="1000" alt="image" src="https://github.com/user-attachments/assets/1cdeaa8f-aa0f-4941-b159-1902fdb63f28" />
+<img width="1500" height="1000" alt="edited image" src="https://github.com/user-attachments/assets/1cdeaa8f-aa0f-4941-b159-1902fdb63f28" />
 
 The edited image contains a clearly visible albatross added above the landscape while maintaining the original resolution and proportions.
 
 Task 2 — User Manual
 🪶 User Manual: Adding an Albatross to a Picture Using ChatGPT
 Step 1: Sign Up for ChatGPT
+
 Go to chat.openai.com
 
 Click Sign Up
@@ -28,13 +29,14 @@ Verify your email
 Log in to access ChatGPT
 
 Step 2: Upload the Original Picture
+
 Click the 📎 paperclip icon
 
 Select picture-template.jpeg
 
 Wait for the preview to appear
 
-Step 3: Add the Albatross
+Step 3: Add the Albatross  
 Type a prompt such as:
 
 Add an albatross flying above the landscape in this picture.
@@ -42,6 +44,7 @@ Add an albatross flying above the landscape in this picture.
 ChatGPT will generate a new edited version with the albatross added.
 
 Step 4: Save the Final Image
+
 Click the ⬇️ download icon
 
 Save as final-albatross.jpeg
@@ -49,16 +52,17 @@ Save as final-albatross.jpeg
 Insert both images into your answer.md
 
 Step 5: Verify Requirements
+
 Albatross must be clearly visible
 
 Resolution must match original
 
 Format must be .jpeg or .png
 
-Include both images in submission
-
 Task 3 — Full Graph
 Graph Representation (Mermaid)
+
+```mermaid
 graph TD
 
 IONA --> AXEL
@@ -85,9 +89,12 @@ SOL --> WHISP
 
 WHISP --> LUNE
 WHISP --> SOL
+```
 
 Task 4 — GPA Calculator (Single‑File Web App)
 HTML Code
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -276,4 +283,4 @@ HTML Code
 
 </body>
 </html>
-
+```
